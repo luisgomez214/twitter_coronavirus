@@ -16,6 +16,7 @@ from collections import Counter,defaultdict
 total = defaultdict(lambda: Counter())
 for path in args.input_paths:
     with open(path) as f:
+        print(f'path:{path}')
         tmp = json.load(f)
         for k in tmp:
             total[k] += tmp[k]
