@@ -49,21 +49,25 @@ The horizontal axis of the graph are the keys of the input file,
 and the vertical axis of the graph are the values of the input file.
 The final results are sorted from low to high, and you only include the top 10 keys.
 
+#coronavirus Usage by Country in 2020
  
 <img src=coronavirus_country.png  width=50% />
 
 The bar graph above depicts the amount of times the word "coronavirus" was tweeted in 2020. The graph is sectioned by country, with the US being the leading country with the most tweets.
 
+#coronavirus Usage by Language in 2020
 
 <img src=coronavirus_lang.png  width=50% />
 
 The bar graph above depicts the amount of times the word "coronavirus" was tweeted in 2020. The graph is sectioned by language, with the english being the leading language with the most tweets.
 
+#코로나바이러 Usage by Country in 2020
 
 <img src=코로나바이러스_country.png  width=50% />
 
 The bar graph above depicts the amount of times the word "코로나바이러" was tweeted in 2020. The graph is sectioned by country, with the Korea being the leading country with the most tweets.
 
+#코로나바이러 Usage by Language in 2020
 
 <img src=코로나바이러스_lang.png  width=50% />
 
