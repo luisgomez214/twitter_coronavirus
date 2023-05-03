@@ -26,20 +26,24 @@ JSON is a popular format for storing data that is closely related to python dict
 
 I completed the following tasks:
 
-Task 0: Create the mapper**
+Task 0: Create the mapper
+
 I modified the `map.py` file so that it tracks the usage of the hashtags on both a language and country level.
 
 Task 1: Run the mapper
+
 I created a shell script called `run_maps.sh`.
 This file looped over each file in the dataset and ran the `map.py` command on that file.
 
 Task 2: Reduce
+
 After the modified `map.py` ran on all the files,
 I had a large number of files in my `outputs` folder.
 I used the `reduce.py` file to combine all of the `.lang` files into a single file,
 and all of the `.country` files into a different file.
 
 Task 3: Visualize
+
 I modified the `visualize.py` file so that it generates a bar graph of the results and stores the bar graph as a png file.
 The horizontal axis of the graph are the keys of the input file,
 and the vertical axis of the graph are the values of the input file.
@@ -66,7 +70,8 @@ The bar graph above depicts the amount of times the word "코로나바이러" wa
 The bar graph above depicts the amount of times the word "코로나바이러" was tweeted in 2020. The graph is sectioned by language, with the korean being the leading language with the most tweets.
 
 Task 4: Alternative Reduce
-I created a new file alternative_reduce.py. This file took as input on the command line a list of hashtags, and output a line plot where:
+
+I created a new file 'alternative_reduce.py'. This file took as input on the command line a list of hashtags, and output a line plot where:
 
 There is one line per input hashtag.
 The x-axis is the day of the year.
